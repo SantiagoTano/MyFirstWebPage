@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fa2aac923c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="CSS/estilos form.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Tostado Robusto</title>
+</head>
+
+<body>
+    <div class="padre">
+        <header class="header">
+            <div class="menu">
+                <a href="index.html">
+                    <div class="logo"></div>
+                </a>
+                <div class="nav">
+                    <a href="index.html"><i class="fas fa-home"></i>Inicio</a>
+                    <a href="about.html"><i class="fas fa-mug-hot"></i>Nosotros</a>
+                    <a href="contacto.html"><i class="fas fa-user"></i>Contacto</a>
+                </div>
+                <div class="social">
+                    <div><a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a></div>
+                    <div><a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a></div>
+                    <div><a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i></a></div>
+                </div>
+            </div>
+        </header>
+        <div class="card-body" >
+            <form id="contact-form" >
+                <div class="mb-3">
+                    <h1>Contactacte con nosotros!</h1>
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input name="nombre" type="text" placeholder="Ingrese su nombre aquí..." class="form-control" id="nombre">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input name="apellido" type="text" placeholder="Ingrese su apellido aquí..." class="form-control" id="apellido">
+                    <label for="email" class="form-label">Email</label>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                    <label for="nacionalidad" class="form-label">Nacionalidad</label>
+                    <select name="nacionalidad" class="form-select" aria-label="Default select example">
+                        <option selected>Ingrese su nacionalidad</option>
+                        <option value="1">Argentina</option>
+                        <option value="2">Brasilera</option>
+                        <option value="3">Uruguaya</option>
+                        <option value="4">Paraguaya</option>
+                    </select>
+                    <label for="exampleFormControlTextarea1" class="form-label">Ingrese su consulta</label>
+                    <textarea name="consulta" class="form-control" cols="10" rows="8" placeholder="Escriba su consulta aqui..."
+                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <div class="form-check">
+                        <input name="check" type="checkbox" class="terminos" id="check1" name="option1">
+                        <label class="form-check-label" for="check1">Acepto los términos y condiciones.</label>
+                    </div>
+                    <button class="boton" type="submit" form="contact-form" >Enviar</button>
+                </div>
+            </form>
+        </div>
+    <footer class="footer">
+        <nav class="pie">
+            <a href="https://www.instagram.com/santitano10/">Desarrollado por Santiago Tano</a>
+        </nav>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src='./js/contacto.js'></script>
+</body>
+
+</html>

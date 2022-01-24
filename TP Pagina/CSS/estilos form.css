@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lora', serif;
+    background:url(..//Imagenes/asd.jpg);
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .header{
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    }
+        .menu{
+            background: rgba(0,0,0,.3   );
+            display: flex;
+            flex-flow: row nowrap;
+            height: 100px;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,.5);
+        }
+            .logo{
+                background-image: url(../Imagenes/logo.png);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                flex: 1 1 auto;
+                height: 200px;
+                width: 200px;
+            }
+            .nav{
+                flex: 5 1 auto;
+                
+            }
+            .nav a{
+                font-size: 15px;
+                color: #ffff;
+                text-transform: uppercase;
+                padding: 0 10px;
+                letter-spacing: 2px;
+                text-decoration: none;
+            }
+            .nav a:hover{
+                color: #dfad26
+
+            }
+            .social{
+                flex: 1 1 auto;
+                display: flex;
+            }
+            .social a{
+                font-size: 18px;
+                color: #ffff;
+                padding: 0 5px;
+            }
+            .social a:hover{
+                color: #dfad26
+            }
+
+            label{
+                color:#ffff;
+
+            }
+            h1{
+                color: #ffff;
+                text-transform: unset;
+            }
+            .boton{
+             background-color: black;
+             color: #ffff;
+             margin-top: 10px;
+             font-size: 20px;
+             border-radius: 4px;
+             transition-duration: 0.4s;
+            }
+            .boton:hover{
+                background-color: #dfad26 ;
+            }
+            .footer{
+                background: #000;
+                display: flex;
+                justify-content: center;
+                margin-top: 105px;
+                }
+                    .pie{
+                        text-align: center;
+                        margin-top: 30px;
+                        
+                    }
+                    .pie a{
+                        color: #dfad26;
+                        font-size: 11px;
+                        text-transform: uppercase;
+                        padding: 0 10px;
+                        letter-spacing: 2px;
+                    }
